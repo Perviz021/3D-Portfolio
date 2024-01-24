@@ -4,23 +4,22 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
+  antDesign,
+  sass,
+  bootstrap,
+  jquery,
   git,
   figma,
-  docker,
   cbar,
   khazar,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -59,12 +58,20 @@ const technologies = [
     icon: css,
   },
   {
+    name: "SASS",
+    icon: sass,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "jQuery",
+    icon: jquery,
   },
   {
     name: "React JS",
@@ -79,16 +86,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
+    name: "Ant Design",
+    icon: antDesign,
   },
   {
     name: "git",
@@ -97,10 +96,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
