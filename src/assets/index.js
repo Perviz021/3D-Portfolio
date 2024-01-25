@@ -26,6 +26,11 @@ import khazar from "./company/khazar.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bankWebsite from "./bank-website.png";
+import bankApp from "./bank-application.png";
+import designer from "./designer.png";
+import music from "./music-player.png";
+import todo from "./todo-app.png";
 
 export {
   logo,
@@ -53,4 +58,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  bankWebsite,
+  bankApp,
+  designer,
+  music,
+  todo,
 };

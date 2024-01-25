@@ -20,6 +20,11 @@ import {
   carrent,
   jobit,
   tripguide,
+  bankWebsite,
+  bankApp,
+  designer,
+  music,
+  todo,
 } from "../assets";
 
 export const navLinks = [
@@ -158,67 +163,118 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bank Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A comprehensive bank website that provides detailed information about the institution. The site offers an in-depth overview of the bank's services, features, and mission, creating a user-friendly platform for visitors to explore and learn more about the bank.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "api",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: bankWebsite,
+    source_code_link: "https://github.com/Perviz021/Bank_website",
+  },
+  {
+    name: "Transaction Application",
+    description:
+      "A dynamic web application focused on seamless banking transactions. Users can effortlessly access their account balance, review detailed transaction histories, initiate deposits and withdrawals, transfer funds, request loans, and even close their accounts.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bankApp,
+    source_code_link:
+      "https://github.com/Perviz021/Application-for-Bank-Transactions",
+  },
+  {
+    name: "Interior Designer",
+    description:
+      "An interior design website where users can explore a diverse array of home design inspirations. From contemporary to classic styles, the platform showcases a collection available for purchase, allowing users to transform their living spaces with ease.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sass",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jquery",
+        color: "green-text-gradient",
+      },
+    ],
+    image: designer,
+    source_code_link: "https://github.com/Perviz021/Project-Designer",
+  },
+  {
+    name: "Music Player",
+    description:
+      "This music player application has a simple and interactive interface created using web technologies. Users can play, pause and rewind music files with this app. It also includes a progress bar that shows the playback time of the music and allows the user to start the track from the desired point.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: music,
+    source_code_link: "https://github.com/Perviz021/MusicPlayer",
+  },
+  {
+    name: "Todo App",
+    description:
+      "Experience productivity at your fingertips with our intuitive to-do app. Seamlessly add, edit, and remove tasks, while efficiently marking them as complete. This user-friendly application empowers you to stay organized, ensuring that managing your daily tasks becomes a simple and streamlined process",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/Perviz021/React-Todo",
   },
 ];
 
