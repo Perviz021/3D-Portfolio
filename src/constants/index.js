@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   html,
@@ -17,9 +14,6 @@ import {
   figma,
   cbar,
   khazar,
-  carrent,
-  jobit,
-  tripguide,
   bankWebsite,
   bankApp,
   designer,

@@ -26,10 +26,6 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    //
-    //
-    //
-
     emailjs
       .send(
         "service_39zcqqz",

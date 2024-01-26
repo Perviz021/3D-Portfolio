@@ -10,8 +10,8 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl }) => {
-  const [decal] = useTexture([imgUrl]);
+const Ball = (props) => {
+  const [decal] = useTexture([props.imgUrl]);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -28,8 +28,9 @@ const Ball = ({ imgUrl }) => {
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          flatShading
+          scale={1}
           map={decal}
+          flatShading
         />
       </mesh>
     </Float>
@@ -38,7 +39,11 @@ const Ball = ({ imgUrl }) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas
+      frameloop="demand"
+      gl={{ preserveDrawingBuffer: true }}
+      dpr={[1, 2]}
+    >
       {/* Canvas loader will work while model loading */}
 
       <Suspense fallback={<CanvasLoader />}>
