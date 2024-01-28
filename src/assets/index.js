@@ -25,6 +25,7 @@ import bankApp from "./bank-application.png";
 import designer from "./designer.png";
 import music from "./music-player.png";
 import todo from "./todo-app.png";
+import asterNews from "./asterNews.png";
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   designer,
   music,
   todo,
+  asterNews,
 };

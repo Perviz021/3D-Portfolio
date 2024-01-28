@@ -19,6 +19,7 @@ import {
   designer,
   music,
   todo,
+  asterNews,
 } from "../assets";
 
 export const navLinks = [
@@ -156,6 +157,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Aster News",
+    description:
+      "A dynamic news website in which you can explore the latest news from diverse categories. From politics and technology to entertainment and sports, a comprehensive range of articles are provided to keep you informed.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "context api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: asterNews,
+    source_code_link: "https://github.com/Perviz021/React-News",
+  },
   {
     name: "Bank Website",
     description:
