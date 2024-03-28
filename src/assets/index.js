@@ -26,6 +26,7 @@ import designer from "./designer.png";
 import music from "./music-player.png";
 import todo from "./todo-app.png";
 import asterNews from "./asterNews.png";
+import qonaqol from "./qonaqol.png";
 
 export {
   logo,
@@ -53,4 +54,5 @@ export {
   music,
   todo,
   asterNews,
+  qonaqol,
 };

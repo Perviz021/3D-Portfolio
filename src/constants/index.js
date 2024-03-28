@@ -18,8 +18,8 @@ import {
   bankApp,
   designer,
   music,
-  todo,
   asterNews,
+  qonaqol,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +158,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Events Website",
+    description:
+      "Qonaqol is an online platform designed to connect event enthusiasts with a myriad of exciting experiences. Whether you're a music lover, a foodie, a sports enthusiast, or someone who simply enjoys exploring new activities, Qonaqol has something for everyone.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "context api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qonaqol,
+    source_code_link: "https://github.com/Perviz021/QonaqOl",
+  },
+  {
     name: "Aster News",
     description:
       "A dynamic news website in which you can explore the latest news from diverse categories. From politics and technology to entertainment and sports, a comprehensive range of articles are provided to keep you informed.",
@@ -274,23 +295,6 @@ const projects = [
     ],
     image: music,
     source_code_link: "https://github.com/Perviz021/MusicPlayer",
-  },
-  {
-    name: "Todo App",
-    description:
-      "Experience productivity at your fingertips with our intuitive to-do app. Seamlessly add, edit, and remove tasks, while efficiently marking them as complete. This user-friendly application empowers you to stay organized, ensuring that managing your daily tasks becomes a simple and streamlined process",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: todo,
-    source_code_link: "https://github.com/Perviz021/React-Todo",
   },
 ];
 
