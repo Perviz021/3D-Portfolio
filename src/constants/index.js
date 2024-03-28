@@ -14,6 +14,7 @@ import {
   figma,
   cbar,
   khazar,
+  atl,
   bankWebsite,
   bankApp,
   designer,
@@ -101,10 +102,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Front End Developer",
+    company_name: "ATL Tech",
+    icon: atl,
+    iconBg: "#E6DEDD",
+    date: "Aug 2023 - Feb 2024",
+    points: [
+      "Implement functionalities within components using JSX syntax and React lifecycle methods.",
+      "Handle state changes triggered by user interactions, API responses, or other external events.",
+      "Integrate React components with backend APIs and services using RESTful APIs.",
+      "Implement client-side routing using libraries like React Router for single-page application navigation.",
+      "Handle asynchronous operations such as data fetching, form submissions, and authentication using asynchronous JavaScript techniques and React hooks.",
+    ],
+  },
+  {
     title: "SQL Developer Intern",
     company_name: "Central Bank of Azerbaijan Republic",
     icon: cbar,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "July 2022 - Sep 2022",
     points: [
       "Designing, building, and maintaining SQL databases including queries, tables, views, user profiles and etc.",

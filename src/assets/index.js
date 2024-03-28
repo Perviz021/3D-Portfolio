@@ -19,6 +19,7 @@ import antDesign from "./tech/ant-design.png";
 
 import cbar from "./company/cbar.png";
 import khazar from "./company/khazar.png";
+import atl from "./company/atl.png";
 
 import bankWebsite from "./bank-website.png";
 import bankApp from "./bank-application.png";
@@ -48,6 +49,7 @@ export {
   jquery,
   cbar,
   khazar,
+  atl,
   bankWebsite,
   bankApp,
   designer,
