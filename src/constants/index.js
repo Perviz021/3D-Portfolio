@@ -21,6 +21,7 @@ import {
   music,
   asterNews,
   qonaqol,
+  mapty,
 } from "../assets";
 
 export const navLinks = [
@@ -213,6 +214,31 @@ const projects = [
     ],
     image: asterNews,
     source_code_link: "https://github.com/Perviz021/React-News",
+  },
+  {
+    name: "Mapty App",
+    description:
+      "Introducing Mapty, your go-to fitness companion for runners and cyclists alike. With a user-friendly sidebar to effortlessly manage workouts and an interactive map feature for discovering new routes, Mapty revolutionizes your fitness journey.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "leaflet",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mapty,
+    source_code_link: "https://github.com/Perviz021/MaptyApplication",
   },
   {
     name: "Bank Website",

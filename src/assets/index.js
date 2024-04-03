@@ -28,6 +28,7 @@ import music from "./music-player.png";
 import todo from "./todo-app.png";
 import asterNews from "./asterNews.png";
 import qonaqol from "./qonaqol.png";
+import mapty from "./mapty-app.png";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   todo,
   asterNews,
   qonaqol,
+  mapty,
 };
